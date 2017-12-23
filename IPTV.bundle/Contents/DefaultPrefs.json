@@ -1,0 +1,38 @@
+[
+    {
+        "id":       "playlist",
+        "label":    "Playlist file name or URL (requires restart)",
+        "type":     "text",
+        "default":  "playlist.m3u"
+    },
+    {
+        "id":       "sort_groups",
+        "label":    "Sort groups by name",
+        "type":     "bool",
+        "default":  "true"
+    },
+    {
+        "id":       "sort_lists",
+        "label":    "Sort streams by name",
+        "type":     "bool",
+        "default":  "true"
+    },
+    {
+        "id":       "rtmp",
+        "label":    "Use Real RTMP (need to edit file Info.plist manually)",
+        "type":     "bool",
+        "default":  "false"
+    },
+    {
+        "id":       "xmltv",
+        "label":    "XMLTV file name or URL",
+        "type":     "text",
+        "default":  "guide.xml"
+    },
+    {
+        "id":       "guide_hours",
+        "label":    "Ammount of hours to look forward when fetching program guide (default 8)",
+        "type":     "text",
+        "default":  "8"
+    }
+]
